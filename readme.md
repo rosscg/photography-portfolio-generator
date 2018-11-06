@@ -7,11 +7,12 @@ Do these steps once.
 
 1. Download repository.
 2. Edit templates/index_template.html as follows:
-    - l6: author
-    - l10: title
-    - l30: email
+    - l7: author
+    - l11: title
+    - l31: email
       - It is strongly suggested to obfuscate this using the tool [here.](https://www.albionresearch.com/misc/obfuscator.php) If used, replace the entire line 31 with the output from the second window of this tool.
 3. (optional) Add favicon to images/fav.png
+4. (optional) Remove line 4 from templates/index_template.html which blocks search engines crawling the site.
 
 
 ### Add Photos:
